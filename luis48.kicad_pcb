@@ -338,7 +338,7 @@
 	(footprint "jlc_footprints:CONN-TH_5007620481"
 		(layer "F.Cu")
 		(uuid "ae002c97-6f5d-4ef2-ae64-8ee0cf1e49d2")
-		(at 119.099949 81.900102)
+		(at 124.999924 89.269)
 		(descr "CONN-TH_5007620481 footprint")
 		(tags "CONN-TH_5007620481 footprint C164171")
 		(property "Reference" "U2"
@@ -413,8 +413,6 @@
 			)
 		)
 		(path "/16c2a7c6-835c-42ab-97f8-82f16ed8edcf")
-		(sheetname "Raíz")
-		(sheetfile "luis48.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -34.956109 17.459716)
@@ -845,36 +843,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "1ed3cd8d-57a9-464c-b86f-c491b97634f7")
-		)
-		(fp_line
-			(start -15.249936 11.399975)
-			(end -34.960376 6.121844)
-			(stroke
-				(width 0.254001)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "ec9e0877-9958-4c27-ad8b-bc008fbe2120")
-		)
-		(fp_line
-			(start -15.249936 11.399975)
-			(end 15.250064 11.399975)
-			(stroke
-				(width 0.254001)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "11b7aeef-9dd4-46f3-aa62-46bd957d903e")
-		)
-		(fp_line
-			(start 15.249428 11.398857)
-			(end 34.959868 6.120726)
-			(stroke
-				(width 0.254001)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "2d6dab82-2bc4-47e7-83d5-9f5f85deab4a")
 		)
 		(fp_circle
 			(center -25.400051 -0.900102)
