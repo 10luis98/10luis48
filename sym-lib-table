@@ -1,5 +1,5 @@
 (sym_lib_table
   (version 7)
   (lib (name "ign8")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/ign8/0.2/ign8.kicad_sym")(options "")(descr ""))
-  (lib (name "jlc_parts")(type "KiCad")(uri "C:/Users/HP/Documents/DiscoExternoRojoFullSpeed/RGIT/jlc-tools/symbol/jlc_parts.kicad_sym")(options "")(descr "JLCPCB global (jlc-tools)"))
+      (lib (name "jlc_parts")(type "KiCad")(uri "C:/Users/HP/Documents/DiscoExternoRojoFullSpeed/RGIT/jlc-tools/symbol/jlc_parts.kicad_sym")(options "")(descr "JLCPCB global (jlc-tools)"))
 )
