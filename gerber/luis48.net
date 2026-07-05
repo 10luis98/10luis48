@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/runner/work/10luis48/10luis48/luis48.kicad_sch</source>
+    <date>2026-07-05T21:24:41+0000</date>
+    <tool>Eeschema 8.0.9-8.0.9-0~ubuntu24.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>luis48.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="M1">
+      <value>Module-ign8-0.2</value>
+      <footprint>hellen-one-ign8-0.2:ign8</footprint>
+      <description>Hellen-One 8-ch Ignition Module</description>
+      <fields>
+        <field name="Footprint">hellen-one-ign8-0.2:ign8</field>
+        <field name="Datasheet"/>
+        <field name="Description">Hellen-One 8-ch Ignition Module</field>
+      </fields>
+      <libsource lib="ign8" part="Module-ign8-0.2" description="Hellen-One 8-ch Ignition Module"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="luis48.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ee6b295c-94a1-4d4d-b7dc-131ab150f6f1</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ISL9V3040D3ST-F085C</value>
+      <footprint>jlc_footprints:JLC_DPAK_L6.5-W6.0-P2.29-LS9.9-TL</footprint>
+      <datasheet>https://item.szlcsc.com/112132.html</datasheet>
+      <fields>
+        <field name="LCSC">C603080</field>
+        <field name="Footprint">jlc_footprints:JLC_DPAK_L6.5-W6.0-P2.29-LS9.9-TL</field>
+        <field name="Datasheet">https://item.szlcsc.com/112132.html</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="jlc_parts" part="ISL9V3040D3ST-F085C" description=""/>
+      <property name="LCSC" value="C603080"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="luis48.kicad_sch"/>
+      <property name="ki_keywords" value="C603080"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>76285db5-5a78-4b75-be7e-2250dbebaa7f</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="ign8" part="Module-ign8-0.2">
+      <description>Hellen-One 8-ch Ignition Module</description>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">Module-ign8-0.2</field>
+        <field name="Footprint">hellen-one-ign8-0.2:ign8</field>
+        <field name="Datasheet"/>
+        <field name="Description">Hellen-One 8-ch Ignition Module</field>
+      </fields>
+      <pins>
+        <pin num="G" name="GND" type="passive"/>
+        <pin num="S1" name="OUT_IGN8" type="passive"/>
+        <pin num="S2" name="OUT_IGN7" type="passive"/>
+        <pin num="S3" name="OUT_IGN6" type="passive"/>
+        <pin num="S4" name="OUT_IGN5" type="passive"/>
+        <pin num="S5" name="OUT_IGN4" type="passive"/>
+        <pin num="S6" name="OUT_IGN3" type="passive"/>
+        <pin num="S7" name="OUT_IGN2" type="passive"/>
+        <pin num="S8" name="OUT_IGN1" type="passive"/>
+        <pin num="V1" name="IGN8" type="passive"/>
+        <pin num="V2" name="IGN7" type="passive"/>
+        <pin num="V3" name="IGN6" type="passive"/>
+        <pin num="V4" name="IGN5" type="passive"/>
+        <pin num="V5" name="IGN4" type="passive"/>
+        <pin num="V6" name="IGN3" type="passive"/>
+        <pin num="V7" name="IGN2" type="passive"/>
+        <pin num="V8" name="IGN1" type="passive"/>
+        <pin num="V9" name="VCC" type="passive"/>
+        <pin num="V10" name="V33" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="jlc_parts" part="ISL9V3040D3ST-F085C">
+      <docs>https://item.szlcsc.com/112132.html</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ISL9V3040D3ST-F085C</field>
+        <field name="Footprint">jlc_footprints:JLC_DPAK_L6.5-W6.0-P2.29-LS9.9-TL</field>
+        <field name="Datasheet">https://item.szlcsc.com/112132.html</field>
+        <field name="Description"/>
+        <field name="LCSC">C603080</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="unspecified"/>
+        <pin num="3" name="E" type="unspecified"/>
+        <pin num="4" name="C" type="unspecified"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="ign8">
+      <uri>/home/runner/work/10luis48/10luis48/hellen-one/modules/ign8/0.2/ign8.kicad_sym</uri>
+    </library>
+    <library logical="jlc_parts">
+      <uri>C:/Users/HP/Documents/DiscoExternoRojoFullSpeed/RGIT/jlc-tools/symbol/jlc_parts.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="unconnected-(M1-GND-PadG)">
+      <node ref="M1" pin="G" pinfunction="GND" pintype="passive"/>
+    </net>
+    <net code="2" name="unconnected-(M1-IGN1-PadV8)">
+      <node ref="M1" pin="V8" pinfunction="IGN1" pintype="passive"/>
+    </net>
+    <net code="3" name="unconnected-(M1-IGN2-PadV7)">
+      <node ref="M1" pin="V7" pinfunction="IGN2" pintype="passive"/>
+    </net>
+    <net code="4" name="unconnected-(M1-IGN3-PadV6)">
+      <node ref="M1" pin="V6" pinfunction="IGN3" pintype="passive"/>
+    </net>
+    <net code="5" name="unconnected-(M1-IGN4-PadV5)">
+      <node ref="M1" pin="V5" pinfunction="IGN4" pintype="passive"/>
+    </net>
+    <net code="6" name="unconnected-(M1-IGN5-PadV4)">
+      <node ref="M1" pin="V4" pinfunction="IGN5" pintype="passive"/>
+    </net>
+    <net code="7" name="unconnected-(M1-IGN6-PadV3)">
+      <node ref="M1" pin="V3" pinfunction="IGN6" pintype="passive"/>
+    </net>
+    <net code="8" name="unconnected-(M1-IGN7-PadV2)">
+      <node ref="M1" pin="V2" pinfunction="IGN7" pintype="passive"/>
+    </net>
+    <net code="9" name="unconnected-(M1-IGN8-PadV1)">
+      <node ref="M1" pin="V1" pinfunction="IGN8" pintype="passive"/>
+    </net>
+    <net code="10" name="unconnected-(M1-OUT_IGN1-PadS8)">
+      <node ref="M1" pin="S8" pinfunction="OUT_IGN1" pintype="passive"/>
+    </net>
+    <net code="11" name="unconnected-(M1-OUT_IGN2-PadS7)">
+      <node ref="M1" pin="S7" pinfunction="OUT_IGN2" pintype="passive"/>
+    </net>
+    <net code="12" name="unconnected-(M1-OUT_IGN3-PadS6)">
+      <node ref="M1" pin="S6" pinfunction="OUT_IGN3" pintype="passive"/>
+    </net>
+    <net code="13" name="unconnected-(M1-OUT_IGN4-PadS5)">
+      <node ref="M1" pin="S5" pinfunction="OUT_IGN4" pintype="passive"/>
+    </net>
+    <net code="14" name="unconnected-(M1-OUT_IGN5-PadS4)">
+      <node ref="M1" pin="S4" pinfunction="OUT_IGN5" pintype="passive"/>
+    </net>
+    <net code="15" name="unconnected-(M1-OUT_IGN6-PadS3)">
+      <node ref="M1" pin="S3" pinfunction="OUT_IGN6" pintype="passive"/>
+    </net>
+    <net code="16" name="unconnected-(M1-OUT_IGN7-PadS2)">
+      <node ref="M1" pin="S2" pinfunction="OUT_IGN7" pintype="passive"/>
+    </net>
+    <net code="17" name="unconnected-(M1-OUT_IGN8-PadS1)">
+      <node ref="M1" pin="S1" pinfunction="OUT_IGN8" pintype="passive"/>
+    </net>
+    <net code="18" name="unconnected-(M1-V33-PadV10)">
+      <node ref="M1" pin="V10" pinfunction="V33" pintype="passive"/>
+    </net>
+    <net code="19" name="unconnected-(M1-VCC-PadV9)">
+      <node ref="M1" pin="V9" pinfunction="VCC" pintype="passive"/>
+    </net>
+    <net code="20" name="unconnected-(U1-C-Pad4)">
+      <node ref="U1" pin="4" pinfunction="C" pintype="unspecified"/>
+    </net>
+    <net code="21" name="unconnected-(U1-E-Pad3)">
+      <node ref="U1" pin="3" pinfunction="E" pintype="unspecified"/>
+    </net>
+    <net code="22" name="unconnected-(U1-G-Pad1)">
+      <node ref="U1" pin="1" pinfunction="G" pintype="unspecified"/>
+    </net>
+  </nets>
+</export>
