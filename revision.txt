@@ -1,6 +1,6 @@
 # make sure to increment revision BEFORE any changes to content
 
-BOARD_PREFIX=Luis	
+BOARD_PREFIX=luis	
 BOARD_SUFFIX=48
 BOARD_REVISION=a
 
