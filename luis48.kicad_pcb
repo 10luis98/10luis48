@@ -338,7 +338,7 @@
 	(footprint "jlc_footprints:CONN-TH_5007620481"
 		(layer "F.Cu")
 		(uuid "ae002c97-6f5d-4ef2-ae64-8ee0cf1e49d2")
-		(at 124.999924 88.769)
+		(at 112.999924 88.249987)
 		(descr "CONN-TH_5007620481 footprint")
 		(tags "CONN-TH_5007620481 footprint C164171")
 		(property "Reference" "U2"
@@ -2126,8 +2126,8 @@
 		)
 	)
 	(gr_rect
-		(start 49.5 18.5)
-		(end 200.5 99.5)
+		(start 49.5 -10.5)
+		(end 176.5254 99.5)
 		(stroke
 			(width 0.05)
 			(type default)
