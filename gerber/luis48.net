@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>/home/runner/work/10luis48/10luis48/luis48.kicad_sch</source>
-    <date>2026-07-06T19:17:28+0000</date>
-    <tool>Eeschema 8.0.9-8.0.9-0~ubuntu24.04.1</tool>
+    <date>2026-10-06T20:02:42</date>
+    <tool>Eeschema 10.0.6-10.0.6~ubuntu24.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -33,10 +33,23 @@
         <field name="Description"/>
       </fields>
       <libsource lib="vr-max9924" part="Module-vr-max9924-0.1" description=""/>
-      <property name="Sheetname" value=""/>
+      <property name="Sheetname" value="luis48"/>
       <property name="Sheetfile" value="luis48.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>4ae4ff53-c0ca-46f5-8cd6-3458b3321b12</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="W2"/>
+            <pin num="W1"/>
+            <pin num="E4"/>
+            <pin num="G"/>
+            <pin num="E3"/>
+            <pin num="E2"/>
+            <pin num="E1"/>
+          </pins>
+        </unit>
+      </units>
     </comp>
   </components>
   <libparts>
@@ -61,30 +74,30 @@
   </libparts>
   <libraries>
     <library logical="vr-max9924">
-      <uri>/home/runner/work/10luis48/10luis48/hellen-one/modules/vr-max9924/0.1/vr-max9924.kicad_sym</uri>
+      <uri>${KIPRJMOD}/hellen-one/modules/vr-max9924/0.1/vr-max9924.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="unconnected-(M1-GND-PadG)">
-      <node ref="M1" pin="G" pinfunction="GND" pintype="passive"/>
+    <net code="1" name="unconnected-(M1-GND-PadG)" class="Default">
+      <node ref="M1" pin="G" pinfunction="GND_G" pintype="passive"/>
     </net>
-    <net code="2" name="unconnected-(M1-NC-PadE1)">
-      <node ref="M1" pin="E1" pinfunction="NC" pintype="passive"/>
+    <net code="2" name="unconnected-(M1-NC-PadE1)" class="Default">
+      <node ref="M1" pin="E1" pinfunction="NC_E1" pintype="passive"/>
     </net>
-    <net code="3" name="unconnected-(M1-NC-PadE2)">
-      <node ref="M1" pin="E2" pinfunction="NC" pintype="passive"/>
+    <net code="3" name="unconnected-(M1-NC-PadE2)" class="Default">
+      <node ref="M1" pin="E2" pinfunction="NC_E2" pintype="passive"/>
     </net>
-    <net code="4" name="unconnected-(M1-OUT-PadE3)">
-      <node ref="M1" pin="E3" pinfunction="OUT" pintype="passive"/>
+    <net code="4" name="unconnected-(M1-OUT-PadE3)" class="Default">
+      <node ref="M1" pin="E3" pinfunction="OUT_E3" pintype="passive"/>
     </net>
-    <net code="5" name="unconnected-(M1-V5_IN-PadE4)">
-      <node ref="M1" pin="E4" pinfunction="V5_IN" pintype="passive"/>
+    <net code="5" name="unconnected-(M1-V5_IN-PadE4)" class="Default">
+      <node ref="M1" pin="E4" pinfunction="V5_IN_E4" pintype="passive"/>
     </net>
-    <net code="6" name="unconnected-(M1-VR+-PadW2)">
-      <node ref="M1" pin="W2" pinfunction="VR+" pintype="passive"/>
+    <net code="6" name="unconnected-(M1-VR+-PadW2)" class="Default">
+      <node ref="M1" pin="W2" pinfunction="VR+_W2" pintype="passive"/>
     </net>
-    <net code="7" name="unconnected-(M1-VR--PadW1)">
-      <node ref="M1" pin="W1" pinfunction="VR-" pintype="passive"/>
+    <net code="7" name="unconnected-(M1-VR--PadW1)" class="Default">
+      <node ref="M1" pin="W1" pinfunction="VR-_W1" pintype="passive"/>
     </net>
   </nets>
 </export>
